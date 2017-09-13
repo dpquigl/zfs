@@ -85,6 +85,7 @@
  * ztest can invoke them during backwards compatibility testing (-B).
  */
 
+#undef NDEBUG
 #include <sys/zfs_context.h>
 #include <sys/spa.h>
 #include <sys/dmu.h>
